@@ -24,10 +24,31 @@
             margin: 20px 0;
             color: #444;
         }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            margin-top: 20px;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        button:active {
+            transform: translateY(0);
+        }
     </style>
 </head>
 <body>
     <h1>About Me</h1>
     <p>I learn things. Like vibe coding. More about me later.</p>
+    <button onclick="window.location.href='index.html'">Return to home page</button>
 </body>
 </html>
