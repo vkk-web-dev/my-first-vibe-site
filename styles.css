@@ -38,6 +38,11 @@ a:hover {
     color: #764ba2;
 }
 
+a:active {
+    color: #555;
+    text-decoration: underline;
+}
+
 button {
     background-color: #5a6f86;
     color: white;
