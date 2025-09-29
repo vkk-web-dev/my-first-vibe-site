@@ -29,24 +29,21 @@ p {
 }
 
 a {
-    color: #667eea;
-    text-decoration: none;
+    color: #5a6f86;
+    text-decoration: underline;
     font-weight: 500;
     margin: 10px 0;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #764ba2;
-}
-
-a:active {
-    color: #5a6f86;
+    color: #1f6d5c;
     text-decoration: underline;
 }
 
-a:active:hover {
+a:visited {
     color: #1f6d5c;
+    text-decoration: underline;
 }
 
 button {
