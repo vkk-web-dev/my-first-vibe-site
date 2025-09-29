@@ -39,8 +39,12 @@ a:hover {
 }
 
 a:active {
-    color: #555;
+    color: #5a6f86;
     text-decoration: underline;
+}
+
+a:active:hover {
+    color: #1f6d5c;
 }
 
 button {
